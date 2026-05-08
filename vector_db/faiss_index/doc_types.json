@@ -1,20 +1,29 @@
 {
-  "Mahmoud_CV.pdf": {
-    "label": "invoice",
-    "confidence": 0.9168,
+  "introducion to ChatGpt.pdf": {
+    "label": "research",
+    "confidence": 0.6401,
     "all_scores": {
-      "contract": 0.0,
-      "invoice": 0.9168,
-      "research": 0.0832
+      "contract": 0.0736,
+      "invoice": 0.2863,
+      "research": 0.6401
     }
   },
-  "Mazen_IslamCV.pdf": {
-    "label": "research",
-    "confidence": 0.5266,
+  "Mahmoud's CV.pdf": {
+    "label": "invoice",
+    "confidence": 0.8766,
     "all_scores": {
-      "contract": 0.0004,
-      "invoice": 0.473,
-      "research": 0.5266
+      "contract": 0.0002,
+      "invoice": 0.8766,
+      "research": 0.1231
+    }
+  },
+  "\u0635\u0648\u0631\u0629 \u0628\u0637\u0627\u0642\u0629 \u062e\u0644\u0641\u0649.pdf": {
+    "label": "research",
+    "confidence": 0.6025,
+    "all_scores": {
+      "contract": 0.2138,
+      "invoice": 0.1837,
+      "research": 0.6025
     }
   }
 }

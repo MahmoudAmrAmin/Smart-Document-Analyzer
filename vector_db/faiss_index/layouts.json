@@ -1,115 +1,128 @@
 {
-  "Mahmoud_CV.pdf": {
+  "introducion to ChatGpt.pdf": {
     "summary": {
       "method": "rules",
       "pages": 1,
-      "regions": 48,
+      "regions": 8,
       "breakdown": {
-        "title": 16,
-        "table": 1,
-        "paragraph": 31
+        "paragraph": 2,
+        "title": 6
       }
     },
     "regions": [
       {
-        "type": "title",
-        "text": "Mahmoud Amr Amin",
+        "type": "paragraph",
+        "text": "#39,234,639 H A S B E E N AWA R D E D TO",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "title",
-        "text": "Cairo, Egypt",
+        "text": "Mahmoud Amr",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "FO R S U C C E S S F U L LY C O M P L E T I N G Introduction to ChatGPT",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "L E N G T H",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "1 HOURS",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "C O M P L E T E D O N",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "FEB 27, 2025",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Jonathan Cornelissen",
+        "page": 1,
+        "confidence": 1.0
+      }
+    ]
+  },
+  "Mahmoud's CV.pdf": {
+    "summary": {
+      "method": "rules",
+      "pages": 1,
+      "regions": 41,
+      "breakdown": {
+        "table": 5,
+        "title": 16,
+        "paragraph": 20
+      }
+    },
+    "regions": [
+      {
+        "type": "table",
+        "text": "mailto:MahmodAmrAmin@gmail.com| (+2)01007005239 | Cairo, Egypt",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "table",
-        "text": "MahmodAmrAmin@gmail.com|(+2) 01007005239 | LinkedIn: Mahmoud Amr Amin |GitHub: Mahmoud Amr Amin",
+        "text": "| Mahmoud Amr Amin (LinkedIn) | Mahmoud Amr Amin",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "title",
-        "text": "Summary",
+        "text": "Professional Summary",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "AI & Machine Learning Engineer specializing in Machine learning, Deep Learning, NLP, LLMs, with experience building scalable, production-ready AI solutions. Proficient in Python, ML and DL Libraries, ",
+        "text": "Entry-level Data Scientist and Machine Learning Engineer with a strong foundation in statistical analysis, predictive modeling, and end-to-end ML project development. Proficient in Python, data prepro",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "title",
-        "text": "Education",
+        "text": "Skills",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "B.Sc. in Computer Science (AI), Benha University",
+        "text": "Programming & Querying SQL, Python | Databases",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "table",
+        "text": "MySQL, SQL Server | Libraries Pandas, NumPy, Matplotlib, Seaborn |",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "table",
+        "text": "Tools & Technologies Jupyter Notebook, Git, Docker | Other Data Cleaning, Data Validation, EDA, Dashboarding, Reporting Automation |",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "title",
-        "text": "Oct-2022 Present",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Coursework:Machine Learning, Deep Learning, Algorithms, Software Engineering, Computer Architecture",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Key Achievements:Participated in the 2023 ICPC ECPC Qualifications Collegiate Programming Contest",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Activities: Google Developer Groups on Campus Benha University",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Experience",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Machine Learning Track Trainee Genius Technology Company (GTC)",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Aug 2025 Sep 2025",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "intensive training program covering the full ML lifecycle",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Core ML ,DL Foundations & Data Engineering: Developed hands-on proficiency in the end-to-end ML workflow, covering data wrangling & preparation, exploratory data analysis (EDA), and feature engineerin",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Model Development & Deployment: Trained and evaluated classical ML models and deep learning architectures, culminating in a practical deployment module covering productionization best practices and re",
+        "text": "Soft Skills Data Storytelling, Analytical Thinking, Collaboration",
         "page": 1,
         "confidence": 1.0
       },
@@ -121,73 +134,31 @@
       },
       {
         "type": "paragraph",
-        "text": "Global Agri-Food CO Emissions Forecaster & Analytics Dashboard Tools: Python (Pandas, Scikit-learn, Streamlit, Plotly, Seaborn), Power BI, Joblib",
+        "text": "Agri-FoodCO EmissionAnalysisDashboard Tools Used: Python (Pandas, scikit-learn, Streamlit)",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "End-to-End ML Architecture: Designed and implemented a full predictive pipeline to forecast CO emissions across the global agri-food sector, delivering actionable insights to support climate sustainab",
+        "text": "Collected and cleaned 6,900+ data points from 30+ global features to extract trends, activity impact, and geographic patterns.",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "Advanced Feature Engineering & Optimization: Conducted rigorous EDA and preprocessing on multi-dimensional agricultural datasets. Mitigated multicollinearity and optimized computational efficiency via",
+        "text": "Developed and deployed a machine learning model (Random Forest, R = 0.91) to predict CO emissions based on agricultural activity.",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "Model Benchmarking & Evaluation: Trained, tuned, and cross-validated 9 regression algorithms (includingRandom Forest, Gradient Boosting, SVR, and Regularized Linear Models). Achieved exceptional predi",
+        "text": "Deployed a user-friendly Streamlit app with real-time prediction, dataset insights, and model performance pages.",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "Full-Stack Deployment: Productized the best-performing model into an interactive, real-time web application using Streamlit. Integrated serialized models (.pkl) enabling stakeholders to dynamically in",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Business Intelligence Integration: Enhanced data storytelling by pairing the ML application with a Power BI dashboard and custom Plotly/Seaborn visual interfaces, translating complex climate data into",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "End-to-End Pipeline Architecture: Architected and deployed a comprehensive ML pipeline covering data ingestion, EDA, custom feature engineering, dynamic splitting, and predictive modeling for secondar",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Advanced Gradient Boosting: Developed a high-performance regression model usingCatBoost with extensive hyperparameter tuning (GridSearchCV/RandomizedSearchCV) on learning rates, depth, and L2 regulari",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Robust Feature Transformation: Engineered a custom preprocessing workflow and serialized categorical encoders using Object Pickling (Brand_Encoder.pkl, Model_Encoder.pkl, OHE_Encoder.pkl) to enforce s",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Interactive UI/UX Deployment: Designed and launched a modern, user-centric web application using Streamlit with custom CSS styling and responsive layout configurations, providing a seamless real-time ",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Cellphone Price Prediction System",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Tools Used: Python (Pandas, Scikit-learn, Streamlit)",
+        "text": "Enabled stakeholders to explore the most impactful emission sources such as on-farm energy use and livestock activities. CellphonePricePredictionSystem Tools Used: Python (Pandas, Scikit-learn, Stream",
         "page": 1,
         "confidence": 1.0
       },
@@ -217,13 +188,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Enabled model reusability and fast deployment using Joblib serialization.",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Netflix Movies Exploratory Analysis",
+        "text": "Enabled model reusability and fast deployment using Joblib serialization. NetflixMoviesExploratoryAnalysis",
         "page": 1,
         "confidence": 1.0
       },
@@ -259,13 +224,49 @@
       },
       {
         "type": "title",
-        "text": "Technologies",
+        "text": "Education",
         "page": 1,
         "confidence": 1.0
       },
       {
         "type": "paragraph",
-        "text": "Programming Languages: Python, C++, C, C# , SQL, JavaScript Framework/libraries: Pandas, NumPy, TensorFlow, Scikit-learn, scaPy , NLTK , LangChain , LangGraph Tools and Platforms: Git/GitHub, Microsof",
+        "text": "Stundent. in computer science and AI",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Benha University",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Relevant Coursework: python , math ,probability and statistics , machine learning , neural networks , Deep learning, fundamentals of all computer science branches",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Oct 2022 Jul 2026",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Certifications",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "table",
+        "text": "Data Literacy Certificate DataCamp | SQL (Basic) Certificate HackerRank | SQL (Intermediate) Certificate HackerRank |",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "SQL (Advanced) Certificate HackerRank Completed 40+ technical certifications in data analysis, and visualization",
         "page": 1,
         "confidence": 1.0
       },
@@ -277,7 +278,25 @@
       },
       {
         "type": "paragraph",
-        "text": "NLP Specialization DeepLearning.AI Intro to Deep Learning Kaggle Supervised & Unsupervised Machine Learning DeepLearning.AI Introduction to Database IBM Python Data Fundamentals & Python Programming F",
+        "text": "SQL & Databases (+10 courses) DataCamp, coursera , academic courses Python & Data Science (15 courses) DataCamp, IBM AI & Data Literacy (5 courses)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Coursera",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Nov 2024 Feb 2025",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Nov 2024 Feb 2025",
         "page": 1,
         "confidence": 1.0
       },
@@ -301,216 +320,13 @@
       }
     ]
   },
-  "Mazen_IslamCV.pdf": {
+  "\u0635\u0648\u0631\u0629 \u0628\u0637\u0627\u0642\u0629 \u062e\u0644\u0641\u0649.pdf": {
     "summary": {
       "method": "rules",
       "pages": 1,
-      "regions": 33,
-      "breakdown": {
-        "title": 23,
-        "paragraph": 9,
-        "table": 1
-      }
+      "regions": 0,
+      "breakdown": {}
     },
-    "regions": [
-      {
-        "type": "title",
-        "text": "Mazen Islam Atif",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Data Scientist | ML Engineer mazenislam86@gmail.com",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "SUMMARY",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Entry-level Data Scientist and Machine Learning Engineer with a strong foundation in statistical analysis, predictive modeling, and end-to-end machine learning development. Proficient in Python, data ",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "EDUCATION",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Faculty of Computers & Artificial Intelligence",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Benha University",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "EXPERIENCE",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Google Developer Groups (GDG) Data Science & AI Event Volunteer",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "table",
-        "text": "Community Tech Event | [Benha, Egypt] | 1 Week",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "02/2025 02/2025 Supported the organization of a GDG event focused on Data Science and Artificial Intelligence. Assisted in coordinating AI and machine learning sessions and workshops. Supported speake",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "SKILLS",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Programming Languages: Python",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Data Analysis & Visualization:",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Matplotlib, Seaborn",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Power BI AI Automation Tools & Platforms:",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Jupyter Notebook, Google Colab",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Database : SQL,Sqlite Machine Learning & AI:",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Supervised Learning (Classification, Regression)",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Feature Engineering",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Model Evaluation & Validation",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "PROJECTS",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Mobile Price Prediction System",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Data Science & AI Graduation Project GDG End-to-End Machine Learning Project with Deployment Built an end-to-end machine learning pipeline including data preprocessing, EDA, feature engineering, and m",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Streamlit",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "CERTIFICATES",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "paragraph",
-        "text": "Google Developer Groups (GDG) Data Science & AI Program Certificate GDG Community | Completion Certificate 02/2025 02/2025",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Associate Data Scientist In Python",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "LANGUAGES",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Arabic",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Native/Bilingual",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "English (B1)",
-        "page": 1,
-        "confidence": 1.0
-      },
-      {
-        "type": "title",
-        "text": "Intermediate",
-        "page": 1,
-        "confidence": 1.0
-      }
-    ]
+    "regions": []
   }
 }
