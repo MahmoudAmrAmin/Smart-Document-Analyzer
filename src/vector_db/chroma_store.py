@@ -19,19 +19,22 @@ def get_chroma_collection(collection_name: str = "documents"):
 def reset_chroma_collection(collection_name: str = "documents"):
     """
     Wipe the existing collection and create a fresh one.
-    Called before every re-index to prevent duplicate embeddings.
     """
     client = chromadb.PersistentClient(path=CHROMA_PATH)
+    
     try:
         client.delete_collection(collection_name)
         print(f"  ChromaDB: deleted old collection '{collection_name}'")
-    except Exception:
-        pass   # collection didn't exist yet — fine
-    collection = client.create_collection(
+    except ValueError:
+        # ده الخطأ الوحيد المسموح نتجاهله (معناه إنها لسه متكريتتش فعلاً)
+        print(f"  ChromaDB: collection '{collection_name}' did not exist, skipping delete.")
+    
+    # نستخدم get_or_create كنوع من الأمان الإضافي (Robustness) في الـ Production
+    collection = client.get_or_create_collection(
         name=collection_name,
         metadata={"hnsw:space": "cosine"}
     )
-    print(f"  ChromaDB: created fresh collection '{collection_name}'")
+    print(f"  ChromaDB: active collection '{collection_name}' is ready")
     return collection
 
 
