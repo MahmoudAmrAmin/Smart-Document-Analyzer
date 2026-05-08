@@ -7,8 +7,7 @@ openai>=1.0.0          # optional fallback
 
 # ── Embeddings ─────────────────────────────────────────
 sentence-transformers>=2.6.0
-transformers==4.41.2
-tokenizers==0.19.1
+
 # ── Vector stores ──────────────────────────────────────
 faiss-cpu>=1.7.4
 chromadb>=0.4.22
@@ -31,7 +30,6 @@ seaborn>=0.13.0
 # ── Utilities ──────────────────────────────────────────
 python-dotenv>=1.0.0
 requests>=2.31.0
-tqdm==4.66.4
 
 # ── Layout detection (optional — needs detectron2) ────
 # layoutparser>=0.3.4
