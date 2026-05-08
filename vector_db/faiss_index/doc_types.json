@@ -1,0 +1,20 @@
+{
+  "Mahmoud_CV.pdf": {
+    "label": "invoice",
+    "confidence": 0.9168,
+    "all_scores": {
+      "contract": 0.0,
+      "invoice": 0.9168,
+      "research": 0.0832
+    }
+  },
+  "Mazen_IslamCV.pdf": {
+    "label": "research",
+    "confidence": 0.5266,
+    "all_scores": {
+      "contract": 0.0004,
+      "invoice": 0.473,
+      "research": 0.5266
+    }
+  }
+}

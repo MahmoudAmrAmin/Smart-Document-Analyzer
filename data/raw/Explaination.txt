@@ -1,0 +1,3 @@
+Document/ ====> PDF , Images (Originals) 
+layouts/  ====> (Images layout training) 
+text/     ====> (raw text (For Nlp) 

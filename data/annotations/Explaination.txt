@@ -1,0 +1,2 @@
+layout_labels/ =======> # bounding boxes (DocBank, PubLayNet)  
+Classification_labels/  ======> (Labels for ML models ) 

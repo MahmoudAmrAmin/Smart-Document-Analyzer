@@ -1,0 +1,516 @@
+{
+  "Mahmoud_CV.pdf": {
+    "summary": {
+      "method": "rules",
+      "pages": 1,
+      "regions": 48,
+      "breakdown": {
+        "title": 16,
+        "table": 1,
+        "paragraph": 31
+      }
+    },
+    "regions": [
+      {
+        "type": "title",
+        "text": "Mahmoud Amr Amin",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Cairo, Egypt",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "table",
+        "text": "MahmodAmrAmin@gmail.com|(+2) 01007005239 | LinkedIn: Mahmoud Amr Amin |GitHub: Mahmoud Amr Amin",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Summary",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "AI & Machine Learning Engineer specializing in Machine learning, Deep Learning, NLP, LLMs, with experience building scalable, production-ready AI solutions. Proficient in Python, ML and DL Libraries, ",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Education",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "B.Sc. in Computer Science (AI), Benha University",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Oct-2022 Present",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Coursework:Machine Learning, Deep Learning, Algorithms, Software Engineering, Computer Architecture",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Key Achievements:Participated in the 2023 ICPC ECPC Qualifications Collegiate Programming Contest",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Activities: Google Developer Groups on Campus Benha University",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Experience",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Machine Learning Track Trainee Genius Technology Company (GTC)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Aug 2025 Sep 2025",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "intensive training program covering the full ML lifecycle",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Core ML ,DL Foundations & Data Engineering: Developed hands-on proficiency in the end-to-end ML workflow, covering data wrangling & preparation, exploratory data analysis (EDA), and feature engineerin",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Model Development & Deployment: Trained and evaluated classical ML models and deep learning architectures, culminating in a practical deployment module covering productionization best practices and re",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Projects",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Global Agri-Food CO Emissions Forecaster & Analytics Dashboard Tools: Python (Pandas, Scikit-learn, Streamlit, Plotly, Seaborn), Power BI, Joblib",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "End-to-End ML Architecture: Designed and implemented a full predictive pipeline to forecast CO emissions across the global agri-food sector, delivering actionable insights to support climate sustainab",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Advanced Feature Engineering & Optimization: Conducted rigorous EDA and preprocessing on multi-dimensional agricultural datasets. Mitigated multicollinearity and optimized computational efficiency via",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Model Benchmarking & Evaluation: Trained, tuned, and cross-validated 9 regression algorithms (includingRandom Forest, Gradient Boosting, SVR, and Regularized Linear Models). Achieved exceptional predi",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Full-Stack Deployment: Productized the best-performing model into an interactive, real-time web application using Streamlit. Integrated serialized models (.pkl) enabling stakeholders to dynamically in",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Business Intelligence Integration: Enhanced data storytelling by pairing the ML application with a Power BI dashboard and custom Plotly/Seaborn visual interfaces, translating complex climate data into",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "End-to-End Pipeline Architecture: Architected and deployed a comprehensive ML pipeline covering data ingestion, EDA, custom feature engineering, dynamic splitting, and predictive modeling for secondar",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Advanced Gradient Boosting: Developed a high-performance regression model usingCatBoost with extensive hyperparameter tuning (GridSearchCV/RandomizedSearchCV) on learning rates, depth, and L2 regulari",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Robust Feature Transformation: Engineered a custom preprocessing workflow and serialized categorical encoders using Object Pickling (Brand_Encoder.pkl, Model_Encoder.pkl, OHE_Encoder.pkl) to enforce s",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Interactive UI/UX Deployment: Designed and launched a modern, user-centric web application using Streamlit with custom CSS styling and responsive layout configurations, providing a seamless real-time ",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Cellphone Price Prediction System",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Tools Used: Python (Pandas, Scikit-learn, Streamlit)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Designed and deployed a machine learning pipeline to predict cellphone prices based on hardware specifications (RAM, camera resolution, battery, internal storage).",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Trained and optimized a Random Forest model, achieving strong predictive accuracy.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Built an interactive Streamlit web application enabling users to input custom phone specs and instantly receive price predictions.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Implemented feature scaling and ensured alignment of input features for real-time inference.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Enabled model reusability and fast deployment using Joblib serialization.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Netflix Movies Exploratory Analysis",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Tools Used: Python (Pandas, Matplotlib)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Conducted an in-depth analysis of Netflix's 1990s movie catalog to support content strategy for a retro-style production firm.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Filtered and analyzed thousands of entries to isolate 1990s content, achieving a focused subset for strategic insights.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Engineered a custom logic to identify duration trends and uncovered the most common movie length in that decade.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Highlighted the scarcity of short-duration action movies, uncovering content gaps for potential production opportunities.",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Technologies",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Programming Languages: Python, C++, C, C# , SQL, JavaScript Framework/libraries: Pandas, NumPy, TensorFlow, Scikit-learn, scaPy , NLTK , LangChain , LangGraph Tools and Platforms: Git/GitHub, Microsof",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Courses",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "NLP Specialization DeepLearning.AI Intro to Deep Learning Kaggle Supervised & Unsupervised Machine Learning DeepLearning.AI Introduction to Database IBM Python Data Fundamentals & Python Programming F",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Languages",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Arabic Native",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "English (B1) Intermediate",
+        "page": 1,
+        "confidence": 1.0
+      }
+    ]
+  },
+  "Mazen_IslamCV.pdf": {
+    "summary": {
+      "method": "rules",
+      "pages": 1,
+      "regions": 33,
+      "breakdown": {
+        "title": 23,
+        "paragraph": 9,
+        "table": 1
+      }
+    },
+    "regions": [
+      {
+        "type": "title",
+        "text": "Mazen Islam Atif",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Data Scientist | ML Engineer mazenislam86@gmail.com",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "SUMMARY",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Entry-level Data Scientist and Machine Learning Engineer with a strong foundation in statistical analysis, predictive modeling, and end-to-end machine learning development. Proficient in Python, data ",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "EDUCATION",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Faculty of Computers & Artificial Intelligence",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Benha University",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "EXPERIENCE",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Google Developer Groups (GDG) Data Science & AI Event Volunteer",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "table",
+        "text": "Community Tech Event | [Benha, Egypt] | 1 Week",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "02/2025 02/2025 Supported the organization of a GDG event focused on Data Science and Artificial Intelligence. Assisted in coordinating AI and machine learning sessions and workshops. Supported speake",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "SKILLS",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Programming Languages: Python",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Data Analysis & Visualization:",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Matplotlib, Seaborn",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Power BI AI Automation Tools & Platforms:",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Jupyter Notebook, Google Colab",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Database : SQL,Sqlite Machine Learning & AI:",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Supervised Learning (Classification, Regression)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Feature Engineering",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Model Evaluation & Validation",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "PROJECTS",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Mobile Price Prediction System",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Data Science & AI Graduation Project GDG End-to-End Machine Learning Project with Deployment Built an end-to-end machine learning pipeline including data preprocessing, EDA, feature engineering, and m",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Streamlit",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "CERTIFICATES",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "paragraph",
+        "text": "Google Developer Groups (GDG) Data Science & AI Program Certificate GDG Community | Completion Certificate 02/2025 02/2025",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Associate Data Scientist In Python",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "LANGUAGES",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Arabic",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Native/Bilingual",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "English (B1)",
+        "page": 1,
+        "confidence": 1.0
+      },
+      {
+        "type": "title",
+        "text": "Intermediate",
+        "page": 1,
+        "confidence": 1.0
+      }
+    ]
+  }
+}
