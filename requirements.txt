@@ -33,10 +33,10 @@ python-dotenv>=1.0.0
 requests>=2.31.0
 tqdm==4.66.4
 
-── Layout detection (optional — needs detectron2) ────
-layoutparser>=0.3.4
-torch>=2.0.0
-torchvision>=0.15.0
+# ── Layout detection (optional — needs detectron2) ────
+# layoutparser>=0.3.4
+# torch>=2.0.0
+# torchvision>=0.15.0
 
 # ── Notebook ───────────────────────────────────────────
 jupyter>=1.0.0
