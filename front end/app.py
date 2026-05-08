@@ -33,7 +33,7 @@ LAYOUTS_PATH   = os.path.join(ROOT_DIR, "vector_db",
 def clear_all_session_data():
     """
     Wipe documents folder + vector index + session state.
-    Called on fresh start or when user clicks Clear.
+    Handles Windows file locking by closing ChromaDB before deleting.
     """
     # Clear uploaded PDFs
     clear_documents_folder()
@@ -42,15 +42,58 @@ def clear_all_session_data():
     for path in [FAISS_INDEX_PATH, FAISS_META_PATH,
                  DOC_TYPES_PATH, LAYOUTS_PATH]:
         if os.path.exists(path):
-            os.remove(path)
+            try:
+                os.remove(path)
+            except Exception:
+                pass
 
-    # Clear ChromaDB
+    # Clear ChromaDB — must close connection first on Windows
     chroma_path = os.path.join(ROOT_DIR, "vector_db", "chroma_db")
     if os.path.exists(chroma_path):
-        shutil.rmtree(chroma_path)
+        try:
+            # Close any open ChromaDB client before deleting
+            import chromadb
+            client = chromadb.PersistentClient(path=chroma_path)
+            client.clear_system_cache()
+            del client
+        except Exception:
+            pass
 
-    # Reset retriever cache
+        # Small delay to let Windows release file handles
+        import time
+        time.sleep(0.5)
+
+        try:
+            shutil.rmtree(chroma_path, ignore_errors=True)
+        except Exception:
+            # If still locked — delete file by file
+            for dirpath, dirnames, filenames in os.walk(
+                chroma_path, topdown=False
+            ):
+                for fname in filenames:
+                    try:
+                        os.remove(os.path.join(dirpath, fname))
+                    except Exception:
+                        pass
+                for dname in dirnames:
+                    try:
+                        os.rmdir(os.path.join(dirpath, dname))
+                    except Exception:
+                        pass
+                try:
+                    os.rmdir(dirpath)
+                except Exception:
+                    pass
+
+    # Reset retriever cache — releases in-memory references
     reset_retriever_cache()
+
+    # Also reset ChromaDB module-level cache in chroma_store
+    try:
+        from src.vector_db.chroma_store import reset_chroma_collection
+        reset_chroma_collection()
+    except Exception:
+        pass
 
 
 # ── Page config ────────────────────────────────────────

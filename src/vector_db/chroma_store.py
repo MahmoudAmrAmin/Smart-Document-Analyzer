@@ -18,24 +18,41 @@ def get_chroma_collection(collection_name: str = "documents"):
 
 def reset_chroma_collection(collection_name: str = "documents"):
     """
-    Wipe the existing collection and create a fresh one.
+    Wipe and recreate ChromaDB collection.
+    Handles Windows file locking gracefully.
     """
-    client = chromadb.PersistentClient(path=CHROMA_PATH)
-    
     try:
-        client.delete_collection(collection_name)
-        print(f"  ChromaDB: deleted old collection '{collection_name}'")
-    except ValueError:
-        # ده الخطأ الوحيد المسموح نتجاهله (معناه إنها لسه متكريتتش فعلاً)
-        print(f"  ChromaDB: collection '{collection_name}' did not exist, skipping delete.")
-    
-    # نستخدم get_or_create كنوع من الأمان الإضافي (Robustness) في الـ Production
-    collection = client.get_or_create_collection(
-        name=collection_name,
-        metadata={"hnsw:space": "cosine"}
-    )
-    print(f"  ChromaDB: active collection '{collection_name}' is ready")
-    return collection
+        client = chromadb.PersistentClient(path=CHROMA_PATH)
+        try:
+            client.delete_collection(collection_name)
+            print(f"  ChromaDB: deleted old collection '{collection_name}'")
+        except Exception:
+            pass
+
+        # Release file handles before recreating
+        try:
+            client.clear_system_cache()
+        except Exception:
+            pass
+
+        collection = client.create_collection(
+            name=collection_name,
+            metadata={"hnsw:space": "cosine"}
+        )
+        print(f"  ChromaDB: created fresh collection '{collection_name}'")
+        return collection
+
+    except Exception as e:
+        print(f"  ⚠️  ChromaDB reset failed: {e} — creating new client")
+        # Force new client instance
+        import time
+        time.sleep(0.3)
+        client     = chromadb.PersistentClient(path=CHROMA_PATH)
+        collection = client.get_or_create_collection(
+            name=collection_name,
+            metadata={"hnsw:space": "cosine"}
+        )
+        return collection
 
 
 def add_to_chroma(collection, chunks: List[str],
